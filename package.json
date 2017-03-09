@@ -1,0 +1,41 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My Resume",
+  "main": "./src/App.jsx",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyh825/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Salieri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyh825/resume/issues"
+  },
+  "homepage": "https://github.com/zyh825/resume#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "exports-loader": "^0.6.4",
+    "raw-loader": "^0.5.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "marked": "^0.3.6",
+    "prismjs": "^1.6.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
