@@ -10,10 +10,9 @@ class ResumeEditor extends React.PureComponent {
   render() {
     const { content, isMarked } = this.props;
     return (
-      <pre
-        id="resume-editor"
-        dangerouslySetInnerHTML={{ __html: isMarked ? marked(content) : content }}
-      >
+      <pre className="resume-editor">
+        <div dangerouslySetInnerHTML={{ __html: isMarked ? marked(content) : content }}>
+        </div>
       </pre>
     );
   }
